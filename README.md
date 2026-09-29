@@ -37,6 +37,12 @@ go test -tags solution ./01-basics/...
 
 > **กติกาทอง:** พิมพ์โค้ดเองทุกบรรทัด อย่า copy-paste — มือต้องจำ syntax ไปพร้อมกับสมอง
 
+หมายเหตุ:
+- ตอนเริ่มต้น `go test ./...` จะ **FAIL เกือบทั้งหมด — นั่นคือตั้งใจ** เพราะโจทย์ยังว่าง ทำทีละบทจนเขียว
+- บท 09 ไม่มี `main.go` — ดูตัวอย่างใน `09-testing/showcase/` แทน
+- บท 13 รันด้วย `go run ./13-capstone-library/cmd/library`
+- ตรวจว่าเฉลยทุกบทถูกต้อง: `go test -race -tags solution ./...`
+
 ---
 
 ## Roadmap
